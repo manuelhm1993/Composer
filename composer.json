@@ -1,0 +1,22 @@
+{
+    "name": "mhenriquez/phpcomposer",
+    "description": "Proyecto vanilla php y composer",
+    "type": "project",
+    "require": {
+        "illuminate/database": "10.18.0",
+        "dompdf/dompdf": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mhenriquez\\Phpcomposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manuel Henriquez",
+            "email": "manuelhm1993@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
