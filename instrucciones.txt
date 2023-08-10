@@ -1,4 +1,4 @@
-1. PSR-4 autoloading configured. Use "namespace Mhenriquez\Phpcomposer;" in src/
+1. PSR-4 autoloading configured. Use "namespace Mhenriquez;" in app/
 2. Include the Composer autoloader with: require 'vendor/autoload.php';
 
-Esto significa que todo lo que se incluye dentro de src está dentro del namespace Mhenriquez\Phpcomposer y será reconocido
+Esto significa que todo lo que se incluye dentro de app está dentro del namespace Mhenriquez y será reconocido
