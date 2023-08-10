@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Listado de productos</title>
 
-    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="<?php echo $css_path ?>">
   </head>
   <body>
     <div class="container mt-4">
@@ -30,6 +30,6 @@
         </div>
     </div>
 
-    <script src="./../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $js_path ?>"></script>
   </body>
 </html>

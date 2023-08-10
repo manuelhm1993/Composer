@@ -12,6 +12,11 @@ ob_start();
 
 $products = Product::all();
 
+// ---------------- Variables que especifican la ruta de los recursos
+$css_path = './assets/css/app.css';
+$js_path  = './assets/js/bootstrap.bundle.min.js';
+
+// ---------------- Incluye esta vista en el búfer
 include '../resources/views/lists.php';
 
 // -------------- Crea una instancia de Dompdf
