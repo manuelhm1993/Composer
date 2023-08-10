@@ -1,4 +1,17 @@
 1. PSR-4 autoloading configured. Use "namespace Mhenriquez;" in app/
 2. Include the Composer autoloader with: require 'vendor/autoload.php';
 
-Esto significa que todo lo que se incluye dentro de app está dentro del namespace Mhenriquez y será reconocido
+Esto significa que todo lo que se incluye dentro de app está dentro del namespace Mhenriquez y será reconocido, el
+sistema psr-4 es el encargado de realizar la carga de los namespace, se define el nombre del namespace y la carpeta
+a la que hace referencia, en este caso "MHenriquez\\": "app/"
+"autoload": {
+        "psr-4": {
+            "MHenriquez\\": "app/"
+        }
+    },
+
+3. Luego de definir el namespace, se da de alta con: composer dump-autoload
+4. Verificar que exista el namespace en: vendor/composer/autoload_psr4.php
+5. Para iniciar el desarrollo se debe definir el index.php que es el main, allí se debe usar la instrucción:
+require '../vendor/autoload.php';
+6. Esa instrucción será el motor de carga para todos los componentes, es la forma de trabajar de laravel
