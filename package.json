@@ -1,0 +1,22 @@
+{
+  "name": "mhenriquez",
+  "version": "1.0.0",
+  "description": "Proyecto vanilla php para utilizar composer y npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelhm1993/Composer.git"
+  },
+  "author": "Manuel Henriquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuelhm1993/Composer/issues"
+  },
+  "homepage": "https://github.com/manuelhm1993/Composer#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}
