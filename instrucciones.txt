@@ -21,3 +21,13 @@ https://laravel.com/api/10.x
 
 Documentación de laravel
 https://laravel.com/
+
+7. Se requiere crear el webpack.config.js manualmente
+8. Comando para compilar: npx webpack --config webpack.config.js
+
+Documentación de webpack
+https://webpack.js.org/
+
+
+9. Para configurar un atajo en los comandos y usar: npm run build se debe agregar este script en package.json en la clave scripts
+"build": "webpack"
