@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container mt-4">
         <div class="row">
             <div class="col-sm-12">
                 <h1>Listado de productos</h1>
