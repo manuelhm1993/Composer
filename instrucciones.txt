@@ -15,3 +15,9 @@ a la que hace referencia, en este caso "MHenriquez\\": "app/"
 5. Para iniciar el desarrollo se debe definir el index.php que es el main, allí se debe usar la instrucción:
 require '../vendor/autoload.php';
 6. Esa instrucción será el motor de carga para todos los componentes, es la forma de trabajar de laravel
+
+API de laravel
+https://laravel.com/api/10.x
+
+Documentación de laravel
+https://laravel.com/
